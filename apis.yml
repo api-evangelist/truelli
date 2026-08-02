@@ -1,7 +1,27 @@
 aid: truelli
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/truelli.png
 name: Truelli
-description: Truelli is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Truelli is a health-technology company (a 500 Global portfolio company) behind
+  a non-invasive menstrual health-screening product: a menstrual pad that also
+  functions as a diagnostic device. A user wears the pad, scans a barcode with the
+  Truelli mobile app, and receives instant screening results across general,
+  hormonal, sexual, and metabolic health — spanning indicators such as anemia and
+  fatigue, fertility and perimenopause, STIs and cancer risk, and diabetes and
+  cardiovascular markers. The company emphasizes UKAS lab accreditation, HIPAA
+  compliance, and clinical-trial validation. Truelli is a consumer product with no
+  public developer API, SDK, or developer portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/truelli/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Health
+- HealthTech
+- Femtech
+- Diagnostics
+- Medical Device
+- Consumer Health
+- Menstrual Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,10 @@ maintainers:
 common:
 - type: Website
   url: https://truelli.com
+- type: Blog
+  url: https://truelli.com/blogs/blog
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
